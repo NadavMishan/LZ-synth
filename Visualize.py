@@ -86,6 +86,57 @@ def create_box_plot_from_stats(stats_dict: Dict[str, Dict[str, float]]):
     plt.show()
 
 
+def create_box_plot(parameter_range, box_plot_data, config_dict):
+    """
+    Creates a box plot from pre-calculated statistics using matplotlib's bxp,
+    taking axis labels and file name from a configuration dictionary.
+
+    Args:
+        parameter_range (list): List of values for the x-axis labels.
+        box_plot_data (list): List of dictionaries with box plot statistics
+                              (min, Q1, median, Q3, max).
+        config_dict (dict): Dictionary containing 'title', 'xlabel', 'ylabel', and 'filename'.
+    """
+    # 1. Transform data to matplotlib's required format for bxp
+    bxp_stats = []
+    for stats in box_plot_data:
+        # Map user's keys to matplotlib's bxp keys
+        bxp_stats.append({
+            'whislo': stats['min'],
+            'q1': stats['Q1'],
+            'med': stats['median'],
+            'q3': stats['Q3'],
+            'whishi': stats['max'],
+            # Required or useful keys for bxp
+            'iqr': stats['Q3'] - stats['Q1'],
+            'cilo': stats['Q1'],
+            'cihi': stats['Q3'],
+            'fliers': []
+        })
+
+    # 2. Create the plot
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    # 3. Plot the box plot using pre-calculated statistics
+    ax.bxp(bxp_stats, positions=range(1, len(bxp_stats) + 1), showfliers=False)
+
+    # 4. Set x-axis tick positions and labels
+    ax.set_xticks(range(1, len(parameter_range) + 1))
+    ax.set_xticklabels([str(p) for p in parameter_range])
+
+    # 5. Add titles and labels from config_dict
+    ax.set_title(config_dict.get('title', 'Box Plot (Default Title)'))
+    ax.set_xlabel(config_dict.get('xlabel', 'X-Axis (Default Label)'))
+    ax.set_ylabel(config_dict.get('ylabel', 'Y-Axis (Default Label)'))
+    ax.grid(True, linestyle='--', alpha=0.6)
+
+    # 6. Save the plot using filename from config_dict
+    filename = config_dict.get('filename', 'box_plot_default.png')
+    plt.savefig(filename)
+    plt.close(fig)
+    print(f"Box plot saved as '{filename}'")
+
+
 def generate_graph_from_pairs(data_pairs: List[Tuple[float, float]], filename: str = 'points_graph.png', title="Scatter Plot of (x, y) Pairs", x_title="", y_title="") -> None:
     """
     Generates a scatter plot from a list of (x, y) data pairs and saves it to a file.

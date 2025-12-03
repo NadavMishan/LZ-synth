@@ -35,9 +35,12 @@ def create_sentence(Trees, sentence_length=100):
     cur_context = random.choice(Trees)
     sentence = []
     leaf_restarts = 0
-    for _ in range(sentence_length):
+    sequence_lengths = []
+    for i in range(sentence_length):
         if cur_context.is_leaf():
             leaf_restarts += 1
+            sequence_lengths.append(
+                i-sum(sequence_lengths))
             # Reached a leaf node
             # print("Reached leaf, restarting, current run:\n", sentence)
             cur_context = random.choice(Trees)
@@ -48,27 +51,22 @@ def create_sentence(Trees, sentence_length=100):
         next_symbol = random.choices(symbols, probabilities)[0]
         sentence.append(next_symbol)
         cur_context = cur_context.find_child_by_symbol(next_symbol)
-    return sentence, leaf_restarts
+    return sentence, leaf_restarts, sequence_lengths
 
 
-if __name__ == "__main__":
+def lz_synth_main(number_of_songs_per_tree=200, sentence_length=100, number_of_sentences=1,
+                  max_depth=None, steps=1, play_song=False, get_data=False, get_sequence_lengths=False):
 
     try:
         sys.setrecursionlimit(10000)
     except Exception as e:
         print(f"Warning: Could not set recursion limit. {e}")
 
-    # Build Parameters
-    number_of_songs_per_tree = 200
-    max_depth = None
-    steps = 1
-    # Generate Parameters
-    sentence_length = 100
-    number_of_sentences = 1
     graph_data = []
     # for number_of_songs_per_tree in [2, 4, 8, 16, 32, 64, 128, 256, 512, 1200]:
     print(f"\n\nBuilding with {number_of_songs_per_tree} songs per tree:")
     midi_notes_per_song = load_midi()
+    random.shuffle(midi_notes_per_song)
     Trees = []
 
     tot_songs = len(midi_notes_per_song)
@@ -81,48 +79,64 @@ if __name__ == "__main__":
         Trees.append(Tree)
     song_restarts = []
     sentences = []
-
+    sequence_lengths = []
     for i in range(number_of_sentences):
-        sentence, restarts = create_sentence(Trees, sentence_length)
+        sentence, restarts, sequence_lengths = create_sentence(
+            Trees, sentence_length)
         song_restarts.append(restarts)
         sentences.append(sentence)
 
-    absolute_pitches = note_vector_to_midi_pitches(sentences[0])
-    play_midi_pitches(absolute_pitches, duration=0.5)
+    if play_song:
+        absolute_pitches = note_vector_to_midi_pitches(sentences[0])
+        play_midi_pitches(absolute_pitches, duration=0.5)
 
-    # if True:
-    #         # metrics = []
-    #         # for tree in Trees:
-    #         #     metric = tree.analyze_tree_metrics()
-    #         #     metric["Total freq"] = sum(child.freq for child in tree.children)
-    #         #     metrics.append(metric)
+    if get_data:
+        metrics = []
+        for tree in Trees:
+            metric = tree.analyze_tree_metrics()
+            metric["Total freq"] = sum(child.freq for child in tree.children)
+            metrics.append(metric)
 
-    #         # box_metrics = {}
-    #         # for metric in metrics[0].keys():
-    #         #     box_metrics[metric] = calculate_box_plot_stats(
-    #         #         [m[metric] for m in metrics])
-    #         # box_metrics["Leaf Restarts"] = calculate_box_plot_stats(song_restarts)
+        box_metrics = {}
+        for metric in metrics[0].keys():
+            box_metrics[metric] = calculate_box_plot_stats(
+                [m[metric] for m in metrics])
+        box_metrics["Leaf Restarts"] = calculate_box_plot_stats(song_restarts)
 
-    #         general_metrics = {
-    #             "Number of Trees": len(Trees),
-    #             "Songs per Tree": number_of_songs_per_tree,
-    #             "Total Songs": tot_songs,
-    #             "Restart per Symbol": sum(song_restarts) / (number_of_sentences * sentence_length)
+        general_metrics = {
+            "Number of Trees": len(Trees),
+            "Songs per Tree": number_of_songs_per_tree,
+            "Total Songs": tot_songs,
+            "Restart per Symbol": sum(song_restarts) / (number_of_sentences * sentence_length)
 
-    #         }
-    #         graph_data.append((
-    #             number_of_songs_per_tree,
-    #             general_metrics["Restart per Symbol"]
-    #         ))
-    #         # print("General Metrics:")
-    #         # print(general_metrics)
-    #         # print("Box Plot Stats:")
-    #         # print(box_metrics)
-    #         # if False:
-    #         #     create_box_plot_from_stats(
-    #         #         box_metrics)
-    #     # Average Tree Depth Vs Number of leaf restarts
-    #     # changing build depth when reaching leaf.
+        }
+        graph_data.append((
+            number_of_songs_per_tree,
+            general_metrics["Restart per Symbol"]
+        ))
+        print("General Metrics:")
+        print(general_metrics)
+        print("Box Plot Stats:")
+        print(box_metrics)
+        if False:
+            create_box_plot_from_stats(
+                box_metrics)
+        # Average Tree Depth Vs Number of leaf restarts
+        # changing build depth when reaching leaf.
+    if get_sequence_lengths:
+        return sequence_lengths
     # print("graph Data: ", graph_data)
     # Visualize.generate_graph_from_pairs(
     #     graph_data, "steps_vs_reset_symbol_2_songs.png")
+
+
+if __name__ == "__main__":
+    song_per_tree = 25
+    steps = 15
+    sequence_length = lz_synth_main(number_of_songs_per_tree=song_per_tree, sentence_length=100,
+                                    number_of_sentences=1, max_depth=None, steps=steps,
+                                    play_song=True, get_data=False, get_sequence_lengths=True)
+    # sequence_length = sequence_length[0]
+    Ls = sum(sequence_length)/len(sequence_length)
+
+    print(f"Song_per_tree_{song_per_tree}_steps_{steps}_Ls_{Ls}")
