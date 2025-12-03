@@ -14,4 +14,4 @@
     
 - Run the pre-processing code in the file: "maestro_to_vector.py"
     
-- You can now run LZ_MIDI_data.py to hear diffrent songs.
+- You can now run LZ_MIDI_data.py to listen to the LZ_synt.
