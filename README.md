@@ -15,3 +15,11 @@
 - Run the pre-processing code in the file: "maestro_to_vector.py"
     
 - You can now run LZ_MIDI_data.py to listen to the LZ_synt.
+
+## Song examples website
+
+The repository root contains a static GitHub Pages site for the song examples in `Songs/` and the Bach repeat experiments in `BachRepeatExperiments/`. The page includes audio and video players, visualizations, MIDI downloads, and experiment summaries.
+
+The `Deploy song examples to GitHub Pages` workflow publishes the site whenever changes are pushed to `main` or `master`. In the GitHub repository, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. After the first deployment, the site is available at `https://nadavmishan.github.io/LZ-synth/`.
+
+To add or remove examples, update the catalog near the top of `site.js`; the media files remain in their existing folders.

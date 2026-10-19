@@ -1,0 +1,54 @@
+const songExamples = [
+  {title:"Songs per tree · 50", detail:"1 step · average sequence length 2.6", audio:"Songs/Songs_per_tree_50_steps_1_Ls_2.6.mp3", video:"Songs/Songs_per_tree_50_steps_1_Ls_2.6.mp4"},
+  {title:"Songs per tree · 1,200", detail:"1 step · average sequence length 3.6", audio:"Songs/Songs_per_tree_1200_steps_1_Ls_3.6.mp3", video:"Songs/Songs_per_tree_1200_steps_1_Ls_3.6.mp4"},
+  {title:"Songs per tree · 1,200", detail:"5 steps · average sequence length 6.64", audio:"Songs/Songs_per_tree_1200_stpes_5_Ls_6.64.mp3", video:"Songs/Songs_per_tree_1200_stpes_5_Ls_6.64.mp4"},
+  {title:"Song per tree · 1,200", detail:"15 steps · average sequence length 16.5", audio:"Songs/Song_per_tree_1200_steps_15_Ls_16.5.mp3", video:"Songs/Song_per_tree_1200_steps_15_Ls_16.5.mp4"},
+  {title:"Song per tree · 25", detail:"15 steps · average sequence length 14.3", audio:"Songs/Song_per_tree_25_steps_15_Ls_14.3.mp3", video:"Songs/Song_per_tree_25_steps_15_Ls_14.3.mp4"},
+];
+const extraClips = ["over_copy 2.mp4", "over_copy1.mp4", "over_copy3.mp4", "under_copy.mp4"].map((file, i) => ({file, title:["Over-copy · clip 2", "Over-copy · clip 1", "Over-copy · clip 3", "Under-copy"][i]}));
+const experiments = [
+  {n:"001", midi:"generated.mid", plot:"branch_length_histogram.png", summary:"summary.json"},
+  {n:"005", midi:"repeat_5.mid", audio:"repeat_5-converted.mp3", plot:"repeat_5.png", summary:"summary.json"},
+  {n:"010", midi:"repeat_10.mid", audio:"repeat_10-converted.mp3", plot:"repeat_10.png", summary:"summary.json"},
+  {n:"015", midi:"repeat_15.mid", audio:"repeat_15-converted.mp3", plot:"repeat_15.png", summary:"summary.json"},
+  {n:"020", midi:"generated.mid", plot:"branch_length_histogram.png", summary:"summary.json"},
+  {n:"040", midi:"generated.mid", plot:"branch_length_histogram.png", summary:"summary.json", extra:["outlier_branch.mid", "second_longest_branch.mid"]},
+];
+const songGrid = document.querySelector("#song-grid");
+songExamples.forEach((song, i) => {
+  const card = document.createElement("article"); card.className = "song-card"; card.dataset.kind = "audio"; card.dataset.search = `${song.title} ${song.detail}`.toLowerCase();
+  card.innerHTML = `<div class="card-top"><div><span class="card-index">EXAMPLE ${String(i+1).padStart(2,"0")}</span><h3>${song.title}</h3><span class="song-meta">${song.detail}</span></div><span class="tag">Audio + video</span></div><audio controls preload="none" src="${song.audio}">Your browser does not support audio playback.</audio><div class="card-links"><a href="${song.audio}" download>Download audio ↗</a><a href="${song.video}" download>Download video ↗</a></div><div class="video-wrap"><video controls preload="none" playsinline src="${song.video}">Your browser does not support video playback.</video><div class="video-caption">VISUALIZATION · ${song.title.toUpperCase()}</div></div>`;
+  songGrid.append(card);
+});
+extraClips.forEach((clip, i) => {
+  const card = document.createElement("article"); card.className = "song-card clip-card"; card.dataset.kind = "video"; card.dataset.search = clip.title.toLowerCase();
+  card.innerHTML = `<video controls preload="none" playsinline src="Songs/${encodeURIComponent(clip.file)}">Your browser does not support video playback.</video><div class="clip-info"><span class="card-index">ADDITIONAL CLIP ${String(i+1).padStart(2,"0")}</span><h3>${clip.title}</h3><div class="card-links"><a href="Songs/${encodeURIComponent(clip.file)}" download>Download video ↗</a></div></div>`;
+  songGrid.append(card);
+});
+document.querySelector("#song-count").textContent = songExamples.length + extraClips.length;
+
+const experimentGrid = document.querySelector("#experiment-grid");
+experiments.forEach((run) => {
+  const base = `BachRepeatExperiments/repeat_${run.n}/`;
+  const card = document.createElement("article"); card.className = "experiment-card";
+  const plot = `<img src="${base}${run.plot}" alt="Visualization for Bach repeat ${Number(run.n)}" loading="lazy" onerror="this.outerHTML='<div class=\'missing-plot\'>PLOT NOT AVAILABLE</div>'">`;
+  const audio = run.audio ? `<audio controls preload="none" src="${base}${run.audio}">Your browser does not support audio playback.</audio>` : `<p class="summary">Audio preview is not available for this run. Download the MIDI to listen in a music player.</p>`;
+  const extra = (run.extra || []).map(file => `<a href="${base}${file}" download>${file.replaceAll("_", " ")} ↗</a>`).join("");
+  card.innerHTML = `<div class="card-top"><div><span class="card-index">REPEAT RUN</span><h3>${Number(run.n)} repeats</h3></div><span class="tag">Bach · C major</span></div>${plot}${audio}<div class="asset-links"><a href="${base}${run.midi}" download>Download MIDI ↗</a><a href="${base}${run.summary}">Run summary ↗</a>${extra}</div>`;
+  experimentGrid.append(card);
+});
+
+let activeFilter = "all";
+const search = document.querySelector("#search");
+function filterSongs() {
+  const query = search.value.trim().toLowerCase();
+  document.querySelectorAll(".song-card").forEach(card => {
+    card.hidden = !(card.dataset.search.includes(query) && (activeFilter === "all" || card.dataset.kind === activeFilter));
+  });
+}
+search.addEventListener("input", filterSongs);
+document.querySelectorAll(".filter").forEach(button => button.addEventListener("click", () => {
+  activeFilter = button.dataset.filter;
+  document.querySelectorAll(".filter").forEach(item => item.classList.toggle("active", item === button));
+  filterSongs();
+}));
