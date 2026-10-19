@@ -11,7 +11,10 @@ const experiments = [
   {n:"010", midi:"repeat_10.mid", audio:"repeat_10-converted.mp3", plot:"repeat_10.png", summary:"summary.json"},
   {n:"015", midi:"repeat_15.mid", audio:"repeat_15-converted.mp3", plot:"repeat_15.png", summary:"summary.json"},
   {n:"020", midi:"generated.mid", audio:"generated-converted.mp3", plot:"branch_length_histogram.png", summary:"summary.json"},
-  {n:"040", midi:"generated.mid", audio:"generated-converted.mp3", plot:"branch_length_histogram.png", summary:"summary.json", extra:["outlier_branch.mid", "second_longest_branch.mid"]},
+  {n:"040", midi:"generated.mid", audio:"generated-converted.mp3", plot:"branch_length_histogram.png", summary:"summary.json", branches:[
+    {title:"Outlier branch", midi:"outlier_branch.mid", audio:"outlier_branch-converted.mp3"},
+    {title:"Second-longest branch", midi:"second_longest_branch.mid", audio:"second_longest_branch-converted.mp3"},
+  ]},
 ];
 const songGrid = document.querySelector("#song-grid");
 songExamples.forEach((song, i) => {
@@ -27,8 +30,8 @@ experiments.forEach((run) => {
   const card = document.createElement("article"); card.className = "experiment-card";
   const plot = `<img src="${base}${run.plot}" alt="Visualization for Bach repeat ${Number(run.n)}" loading="lazy" onerror="this.outerHTML='<div class=\'missing-plot\'>PLOT NOT AVAILABLE</div>'">`;
   const audio = `<audio controls preload="none" src="${base}${run.audio}">Your browser does not support audio playback.</audio>`;
-  const extra = (run.extra || []).map(file => `<a href="${base}${file}" download>${file.replaceAll("_", " ")} ↗</a>`).join("");
-  card.innerHTML = `<div class="card-top"><div><span class="card-index">REPEAT RUN</span><h3>${Number(run.n)} repeats</h3></div><span class="tag">Bach · C major</span></div>${plot}${audio}<div class="asset-links"><a href="${base}${run.audio}" download>Download audio ↗</a><a href="${base}${run.midi}" download>Download MIDI ↗</a><a href="${base}${run.summary}">Run summary ↗</a>${extra}</div>`;
+  const branches = (run.branches || []).map(branch => `<div class="branch-preview"><div class="branch-preview-heading"><span class="card-index">REPEAT ${Number(run.n)} · EXTRACTED BRANCH</span><h4>${branch.title}</h4></div><audio controls preload="none" src="${base}${branch.audio}">Your browser does not support audio playback.</audio><div class="asset-links"><a href="${base}${branch.audio}" download>Download audio ↗</a><a href="${base}${branch.midi}" download>Download MIDI ↗</a></div></div>`).join("");
+  card.innerHTML = `<div class="card-top"><div><span class="card-index">REPEAT RUN</span><h3>${Number(run.n)} repeats</h3></div><span class="tag">Bach · C major</span></div>${plot}${audio}<div class="asset-links"><a href="${base}${run.audio}" download>Download audio ↗</a><a href="${base}${run.midi}" download>Download MIDI ↗</a><a href="${base}${run.summary}">Run summary ↗</a></div>${branches ? `<div class="branch-previews">${branches}</div>` : ""}`;
   experimentGrid.append(card);
 });
 
