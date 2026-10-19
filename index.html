@@ -4,30 +4,39 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f4f1e9">
-  <meta name="description" content="Listen to LZ-Synth song examples and Bach repeat experiments.">
-  <title>LZ-Synth — Song experiments</title>
+  <meta name="description" content="Supplementary listening examples for Copying Versus Randomization in Lempel-Ziv Music Synthesis by Nadav Mishan and Ram Zamir.">
+  <title>Copying Versus Randomization in Lempel-Ziv Music Synthesis</title>
   <link rel="stylesheet" href="styles.css">
   <script src="site.js" defer></script>
 </head>
 <body>
-  <header class="topbar"><a class="wordmark" href="#top"><span class="mark">LZ</span> LZ-Synth</a><nav><a href="#songs">Song examples</a><a href="#bach">Bach experiments</a><a href="https://github.com/NadavMishan/LZ-synth">GitHub ↗</a></nav></header>
+  <header class="topbar"><a class="wordmark" href="#top"><span class="mark">LZ</span> LZ-Synth</a><nav><a href="#bach">Bach experiments</a><a href="#songs">Song examples</a><a href="https://github.com/NadavMishan/LZ-synth">GitHub ↗</a></nav></header>
   <main id="top">
-    <section class="hero">
-      <div class="hero-copy"><p class="eyebrow">A listening room for algorithmic music</p><h1>Patterns in.<br><em>Music out.</em></h1><p class="intro">Listen to songs generated with LZ-Synth, then explore what happens when the same method revisits Bach’s Prelude in C major.</p><a class="button" href="#songs">Explore the examples <span>↓</span></a></div>
-      <div class="hero-art" aria-label="Abstract musical pattern illustration"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div><div class="center-note">♪</div><span class="art-label">REPEAT · TRANSFORM · PLAY</span></div>
-      <div class="hero-foot"><span>01 / GENERATED SONGS</span><span>02 / BACH REPEATS</span><span>USE THE PLAYERS TO LISTEN</span></div>
-    </section>
-
-    <section class="section" id="songs">
-      <div class="section-heading"><div><p class="eyebrow">01 — LZ-SYNTH</p><h2>Song examples</h2></div><p class="section-note">Compare how tree size and generation steps shape the sound. Play the audio or open each visualization.</p></div>
-      <div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find an example…" aria-label="Find an example"></label><div class="filters" role="group" aria-label="Filter song examples"><button class="filter active" data-filter="all">All <span id="song-count">0</span></button><button class="filter" data-filter="audio">With audio</button><button class="filter" data-filter="video">Video clips</button></div></div>
-      <div class="song-grid" id="song-grid"></div>
+    <section class="hero paper-hero">
+      <article class="paper-titlepage">
+        <div class="paper-meta"><span>SUPPLEMENTARY MATERIAL</span><a href="https://arxiv.org/abs/2609.11353">arXiv:2609.11353 ↗</a></div>
+        <p class="eyebrow">Lempel–Ziv music synthesis</p>
+        <h1>Copying Versus Randomization in Lempel-Ziv Music Synthesis</h1>
+        <p class="authors">Nadav Mishan <span>·</span> Ram Zamir</p>
+        <div class="paper-rule"></div>
+        <p class="abstract-label">ABSTRACT</p>
+        <p class="abstract-text">We use Lempel–Ziv universal compression to generate musical notes and control the algorithm’s tendency to over-copy or under-copy training data by changing the average sequence length stored in its dictionary.</p>
+        <p class="publication-note">Presented at <strong>ICSEE</strong> · IEEE Xplore publication forthcoming.</p>
+        <div class="paper-actions"><a class="button" href="#bach">Listen to the Bach experiments <span>↓</span></a><a class="preprint-button" href="https://arxiv.org/abs/2609.11353"><span class="arxiv-mark" aria-hidden="true">arXiv</span><span class="preprint-label"><strong>Read the preprint</strong><small>arXiv:2609.11353</small></span><span class="preprint-arrow" aria-hidden="true">↗</span></a></div>
+        <div class="paper-footer"><span>ICSEE · IEEE</span><span>SONG EXAMPLES &amp; RESEARCH DATA</span></div>
+      </article>
     </section>
 
     <section class="section bach-section" id="bach">
-      <div class="section-heading"><div><p class="eyebrow">02 — BACH REPEAT EXPERIMENTS</p><h2>One prelude, six runs</h2></div><p class="section-note">Generated variations of Bach’s Prelude in C major. Listen to available previews, inspect each run’s plot, or download the MIDI.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">01 — BACH REPEAT EXPERIMENTS</p><h2>One prelude, six runs</h2></div><p class="section-note">Generated variations of Bach’s Prelude in C major. Listen to available previews, inspect each run’s plot, or download the MIDI.</p></div>
       <div class="original-card"><div><p class="eyebrow">THE SOURCE</p><h3>Prelude in C major</h3><p>Original MIDI used as the starting point for the experiments.</p></div><div class="download-pair"><a href="BachRepeatExperiments/original_bach_plain_120bpm.mid" download>Download · 120 BPM MIDI ↗</a><a href="BachRepeatExperiments/original_bach_pitches.mid" download>Download · pitch MIDI ↗</a></div></div>
       <div class="experiment-grid" id="experiment-grid"></div>
+    </section>
+
+    <section class="section" id="songs">
+      <div class="section-heading"><div><p class="eyebrow">02 — LZ-SYNTH</p><h2>Song examples</h2></div><p class="section-note">Compare how tree size and generation steps shape the sound. Play the audio or open each visualization.</p></div>
+      <div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find an example…" aria-label="Find an example"></label><div class="filters" role="group" aria-label="Filter song examples"><button class="filter active" data-filter="all">All <span id="song-count">0</span></button><button class="filter" data-filter="audio">With audio</button><button class="filter" data-filter="video">Video clips</button></div></div>
+      <div class="song-grid" id="song-grid"></div>
     </section>
   </main>
   <footer><a class="wordmark" href="#top"><span class="mark">LZ</span> LZ-Synth</a><span>Music experiments · <a href="https://github.com/NadavMishan/LZ-synth">View source on GitHub ↗</a></span></footer>
