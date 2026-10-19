@@ -27,6 +27,7 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html styles.css site.js .nojekyll _site/
+          cp ICSEE_LZSYNTH.pdf _site/
           mkdir -p _site/Songs
           cp Songs/*.mp3 _site/Songs/
           cp -R BachRepeatExperiments _site/
