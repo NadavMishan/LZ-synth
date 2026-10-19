@@ -1,0 +1,1543 @@
+{
+  "symbol": null,
+  "freq": 206,
+  "is_leaf": false,
+  "child_count": 27,
+  "children": [
+    {
+      "symbol": 60,
+      "freq": 24,
+      "is_leaf": false,
+      "child_count": 6,
+      "children": [
+        {
+          "symbol": 62,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 3,
+          "children": [
+            {
+              "symbol": 59,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 44,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 43,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 64,
+          "freq": 11,
+          "is_leaf": false,
+          "child_count": 6,
+          "children": [
+            {
+              "symbol": 67,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 72,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 64,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 55,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 48,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 55,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 58,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 58,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 41,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 42,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 65,
+          "freq": 5,
+          "is_leaf": false,
+          "child_count": 3,
+          "children": [
+            {
+              "symbol": 57,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 50,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 43,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 50,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 63,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 66,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 67,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 64,
+      "freq": 15,
+      "is_leaf": false,
+      "child_count": 6,
+      "children": [
+        {
+          "symbol": 67,
+          "freq": 8,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 72,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 3,
+              "children": [
+                {
+                  "symbol": 76,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 64,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 57,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 73,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 55,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 53,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 69,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 55,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 58,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 58,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 36,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 62,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 67,
+      "freq": 16,
+      "is_leaf": false,
+      "child_count": 4,
+      "children": [
+        {
+          "symbol": 72,
+          "freq": 9,
+          "is_leaf": false,
+          "child_count": 6,
+          "children": [
+            {
+              "symbol": 76,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 60,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 59,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 57,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 50,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 60,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 52,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 53,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 74,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 79,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 71,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 55,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 74,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 73,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 72,
+      "freq": 6,
+      "is_leaf": false,
+      "child_count": 4,
+      "children": [
+        {
+          "symbol": 76,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 64,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 62,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 60,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 76,
+      "freq": 4,
+      "is_leaf": false,
+      "child_count": 3,
+      "children": [
+        {
+          "symbol": 60,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 67,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 81,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 69,
+      "freq": 11,
+      "is_leaf": false,
+      "child_count": 2,
+      "children": [
+        {
+          "symbol": 74,
+          "freq": 7,
+          "is_leaf": false,
+          "child_count": 5,
+          "children": [
+            {
+              "symbol": 77,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 59,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 66,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 60,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 59,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 53,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 76,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 81,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 60,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 74,
+      "freq": 7,
+      "is_leaf": false,
+      "child_count": 5,
+      "children": [
+        {
+          "symbol": 77,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 66,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 79,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 62,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 53,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 77,
+      "freq": 5,
+      "is_leaf": false,
+      "child_count": 4,
+      "children": [
+        {
+          "symbol": 60,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 59,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 67,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 74,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 62,
+      "freq": 16,
+      "is_leaf": false,
+      "child_count": 6,
+      "children": [
+        {
+          "symbol": 67,
+          "freq": 6,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 74,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 79,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 67,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 71,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 62,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 66,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 69,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 72,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 50,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 69,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 65,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 71,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 59,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 55,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 81,
+      "freq": 1,
+      "is_leaf": true,
+      "child_count": 0,
+      "children": []
+    },
+    {
+      "symbol": 59,
+      "freq": 10,
+      "is_leaf": false,
+      "child_count": 3,
+      "children": [
+        {
+          "symbol": 60,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 62,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 55,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 43,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 52,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 65,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 3,
+          "children": [
+            {
+              "symbol": 43,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 55,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 36,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 57,
+      "freq": 16,
+      "is_leaf": false,
+      "child_count": 2,
+      "children": [
+        {
+          "symbol": 62,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 69,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 74,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 60,
+          "freq": 12,
+          "is_leaf": false,
+          "child_count": 5,
+          "children": [
+            {
+              "symbol": 65,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 50,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 60,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 64,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 63,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 42,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 44,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 66,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 43,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 52,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 57,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 66,
+      "freq": 2,
+      "is_leaf": false,
+      "child_count": 1,
+      "children": [
+        {
+          "symbol": 72,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 55,
+      "freq": 18,
+      "is_leaf": false,
+      "child_count": 2,
+      "children": [
+        {
+          "symbol": 59,
+          "freq": 6,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 65,
+              "freq": 5,
+              "is_leaf": false,
+              "child_count": 3,
+              "children": [
+                {
+                  "symbol": 43,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 48,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 55,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 59,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 60,
+          "freq": 11,
+          "is_leaf": false,
+          "child_count": 3,
+          "children": [
+            {
+              "symbol": 67,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 55,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 43,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 64,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 43,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 50,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 65,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 43,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 50,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 55,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 58,
+      "freq": 5,
+      "is_leaf": false,
+      "child_count": 2,
+      "children": [
+        {
+          "symbol": 64,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 55,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 36,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 60,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 56,
+      "freq": 2,
+      "is_leaf": false,
+      "child_count": 1,
+      "children": [
+        {
+          "symbol": 62,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 71,
+      "freq": 5,
+      "is_leaf": false,
+      "child_count": 3,
+      "children": [
+        {
+          "symbol": 62,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 65,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 74,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 67,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 53,
+      "freq": 10,
+      "is_leaf": false,
+      "child_count": 3,
+      "children": [
+        {
+          "symbol": 57,
+          "freq": 5,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 64,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 57,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 53,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 59,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 55,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 59,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 65,
+      "freq": 9,
+      "is_leaf": false,
+      "child_count": 4,
+      "children": [
+        {
+          "symbol": 71,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 57,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 43,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 50,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 55,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 55,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 59,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 52,
+      "freq": 6,
+      "is_leaf": false,
+      "child_count": 2,
+      "children": [
+        {
+          "symbol": 53,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 55,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 64,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 67,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 50,
+      "freq": 7,
+      "is_leaf": false,
+      "child_count": 3,
+      "children": [
+        {
+          "symbol": 55,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 65,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 59,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 53,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 36,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 41,
+      "freq": 1,
+      "is_leaf": true,
+      "child_count": 0,
+      "children": []
+    },
+    {
+      "symbol": 48,
+      "freq": 5,
+      "is_leaf": false,
+      "child_count": 3,
+      "children": [
+        {
+          "symbol": 57,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 55,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 58,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 53,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 51,
+      "freq": 2,
+      "is_leaf": false,
+      "child_count": 1,
+      "children": [
+        {
+          "symbol": 57,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 43,
+      "freq": 1,
+      "is_leaf": true,
+      "child_count": 0,
+      "children": []
+    },
+    {
+      "symbol": 47,
+      "freq": 1,
+      "is_leaf": true,
+      "child_count": 0,
+      "children": []
+    },
+    {
+      "symbol": [
+        36,
+        48,
+        64,
+        67,
+        72
+      ],
+      "freq": 1,
+      "is_leaf": true,
+      "child_count": 0,
+      "children": []
+    }
+  ]
+}

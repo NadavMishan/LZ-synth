@@ -6,6 +6,7 @@ from pathlib import Path
 import re
 from collections import defaultdict
 from music21 import harmony, roman, key
+from numbers import Integral
 # Using standard library for stats
 from statistics import quantiles, median, stdev
 
@@ -144,40 +145,101 @@ def load_midi(file_path="delta_notes.json"):
     return midi_songs
 
 
-def calculate_box_plot_stats(values):
-    """
-    Calculates the 5 essential box plot statistics: Min, Q1, Median, Q3, Max.
-    """
-    if not values:
-        return {'min': 0, 'Q1': 0, 'median': 0, 'Q3': 0, 'max': 0}
+def load_melody_dataset(file_path="delta_notes_melody.json"):
+    with open(file_path, "r", encoding="utf-8") as f:
+        raw_data = json.load(f)
 
-    # Sort the values for accurate quantile calculation
-    sorted_values = sorted(values)
+    if not isinstance(raw_data, list):
+        raise ValueError("Dataset JSON must contain a top-level list.")
 
-    minimum = sorted_values[0]
-    maximum = sorted_values[-1]
+    validated_songs = []
+    for index, song in enumerate(raw_data):
+        if not isinstance(song, dict):
+            raise ValueError(f"Song entry #{index + 1} must be an object.")
 
-    # Calculate Q1, Median (Q2), Q3 using the exclusive method for a list of size < 100
-    try:
-        # Pct = [25, 50, 75]
-        quartiles = quantiles(sorted_values, n=4, method='exclusive')
-        Q1 = quartiles[0]
-        Q2 = quartiles[1]  # Median
-        Q3 = quartiles[2]
-    except:
-        # Fallback if list is too small for 'exclusive' or other error
-        Q1 = sorted_values[len(sorted_values) // 4]
-        Q2 = median(sorted_values)
-        Q3 = sorted_values[len(sorted_values) * 3 // 4]
+        missing = {"composer", "composition", "vector"} - song.keys()
+        if missing:
+            missing_fields = ", ".join(sorted(missing))
+            raise ValueError(
+                f"Song entry #{index + 1} is missing required field(s): {missing_fields}."
+            )
 
-    return {
-        'min': minimum,
-        'Q1': Q1,
-        'median': Q2,
-        'Q3': Q3,
-        'max': maximum
-    }
+        vector = song["vector"]
+        if not isinstance(vector, list) or not vector:
+            raise ValueError(f"Song entry #{index + 1} has an empty or invalid vector.")
+        if not all(isinstance(value, Integral) for value in vector):
+            raise ValueError(f"Song entry #{index + 1} contains non-integer vector values.")
+
+        validated_songs.append(
+            {
+                "filepath": song.get("filepath", ""),
+                "composer": str(song["composer"]),
+                "composition": str(song["composition"]),
+                "vector": [int(value) for value in vector],
+            }
+        )
+
+    return validated_songs
+
+
+def load_midi_melody(file_path="delta_notes_melody.json"):
+    midi_songs = load_melody_dataset(file_path)
+    return [song["vector"] for song in midi_songs]
+
+
+def get_song_vectors(dataset, song_indices):
+    vectors = []
+    for index in song_indices:
+        try:
+            song = dataset[index]
+        except IndexError as exc:
+            raise ValueError(f"Song index {index} is out of range.") from exc
+        vectors.append(song["vector"])
+    return vectors
+
+
+def load_bach_melody():
+    from maestro_to_melody import midi_to_absolute_pitch_tokens
+
+    bach = midi_to_absolute_pitch_tokens("Bach_C_Perlude.mid")
+    return [bach]
+
+
+# def calculate_box_plot_stats(values):
+#     """
+#     Calculates the 5 essential box plot statistics: Min, Q1, Median, Q3, Max.
+#     """
+#     if not values:
+#         return {'min': 0, 'Q1': 0, 'median': 0, 'Q3': 0, 'max': 0}
+
+#     # Sort the values for accurate quantile calculation
+#     sorted_values = sorted(values)
+
+#     minimum = sorted_values[0]
+#     maximum = sorted_values[-1]
+
+#     # Calculate Q1, Median (Q2), Q3 using the exclusive method for a list of size < 100
+#     try:
+#         # Pct = [25, 50, 75]
+#         quartiles = quantiles(sorted_values, n=4, method='exclusive')
+#         Q1 = quartiles[0]
+#         Q2 = quartiles[1]  # Median
+#         Q3 = quartiles[2]
+#     except:
+#         # Fallback if list is too small for 'exclusive' or other error
+#         Q1 = sorted_values[len(sorted_values) // 4]
+#         Q2 = median(sorted_values)
+#         Q3 = sorted_values[len(sorted_values) * 3 // 4]
+
+#     return {
+#         'min': minimum,
+#         'Q1': Q1,
+#         'median': Q2,
+#         'Q3': Q3,
+#         'max': maximum
+#     }
 
 
 if __name__ == "__main__":
-    print(load_midi())
+    print(load_bach_melody())
+    

@@ -1,0 +1,5298 @@
+{
+  "symbol": null,
+  "freq": 695,
+  "is_leaf": false,
+  "child_count": 33,
+  "children": [
+    {
+      "symbol": 60,
+      "freq": 72,
+      "is_leaf": false,
+      "child_count": 7,
+      "children": [
+        {
+          "symbol": 62,
+          "freq": 10,
+          "is_leaf": false,
+          "child_count": 5,
+          "children": [
+            {
+              "symbol": 59,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 44,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 53,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 43,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 53,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 66,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 69,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 74,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 69,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 64,
+          "freq": 32,
+          "is_leaf": false,
+          "child_count": 7,
+          "children": [
+            {
+              "symbol": 67,
+              "freq": 14,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 72,
+                  "freq": 13,
+                  "is_leaf": false,
+                  "child_count": 2,
+                  "children": [
+                    {
+                      "symbol": 64,
+                      "freq": 6,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 67,
+                          "freq": 5,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 72,
+                              "freq": 4,
+                              "is_leaf": false,
+                              "child_count": 1,
+                              "children": [
+                                {
+                                  "symbol": 57,
+                                  "freq": 3,
+                                  "is_leaf": false,
+                                  "child_count": 1,
+                                  "children": [
+                                    {
+                                      "symbol": 60,
+                                      "freq": 2,
+                                      "is_leaf": false,
+                                      "child_count": 1,
+                                      "children": [
+                                        {
+                                          "symbol": 64,
+                                          "freq": 1,
+                                          "is_leaf": true,
+                                          "child_count": 0,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "symbol": 76,
+                      "freq": 6,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 67,
+                          "freq": 5,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 72,
+                              "freq": 4,
+                              "is_leaf": false,
+                              "child_count": 1,
+                              "children": [
+                                {
+                                  "symbol": 76,
+                                  "freq": 3,
+                                  "is_leaf": false,
+                                  "child_count": 1,
+                                  "children": [
+                                    {
+                                      "symbol": 60,
+                                      "freq": 2,
+                                      "is_leaf": false,
+                                      "child_count": 1,
+                                      "children": [
+                                        {
+                                          "symbol": 64,
+                                          "freq": 1,
+                                          "is_leaf": true,
+                                          "child_count": 0,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 55,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 60,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 64,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 43,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 48,
+              "freq": 6,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 55,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 58,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 60,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 52,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 55,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 58,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 60,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 64,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 41,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 53,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 42,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 69,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 65,
+          "freq": 16,
+          "is_leaf": false,
+          "child_count": 4,
+          "children": [
+            {
+              "symbol": 57,
+              "freq": 5,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 60,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 65,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 50,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 53,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 50,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 53,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 43,
+              "freq": 6,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 50,
+                  "freq": 5,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 55,
+                      "freq": 4,
+                      "is_leaf": false,
+                      "child_count": 2,
+                      "children": [
+                        {
+                          "symbol": 59,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 65,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "symbol": 60,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 55,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 60,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 63,
+          "freq": 5,
+          "is_leaf": false,
+          "child_count": 3,
+          "children": [
+            {
+              "symbol": 44,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 53,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 57,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 42,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 66,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 43,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 52,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 67,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 72,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 52,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 43,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 57,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 64,
+      "freq": 45,
+      "is_leaf": false,
+      "child_count": 10,
+      "children": [
+        {
+          "symbol": 67,
+          "freq": 22,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 72,
+              "freq": 12,
+              "is_leaf": false,
+              "child_count": 3,
+              "children": [
+                {
+                  "symbol": 76,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 67,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 72,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 64,
+                  "freq": 7,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 67,
+                      "freq": 6,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 72,
+                          "freq": 5,
+                          "is_leaf": false,
+                          "child_count": 3,
+                          "children": [
+                            {
+                              "symbol": 59,
+                              "freq": 2,
+                              "is_leaf": false,
+                              "child_count": 1,
+                              "children": [
+                                {
+                                  "symbol": 60,
+                                  "freq": 1,
+                                  "is_leaf": true,
+                                  "child_count": 0,
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "symbol": 50,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            },
+                            {
+                              "symbol": 57,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 57,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 73,
+              "freq": 9,
+              "is_leaf": false,
+              "child_count": 3,
+              "children": [
+                {
+                  "symbol": 55,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 53,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 57,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 62,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 64,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 67,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 73,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 55,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 69,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 76,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 55,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 58,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 60,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 58,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 64,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 41,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 36,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 48,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 55,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 53,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 62,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 48,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 55,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 58,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 52,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 41,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 53,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 42,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 43,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 67,
+      "freq": 45,
+      "is_leaf": false,
+      "child_count": 5,
+      "children": [
+        {
+          "symbol": 72,
+          "freq": 21,
+          "is_leaf": false,
+          "child_count": 7,
+          "children": [
+            {
+              "symbol": 76,
+              "freq": 8,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 60,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 64,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 67,
+                  "freq": 5,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 72,
+                      "freq": 4,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 76,
+                          "freq": 3,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 60,
+                              "freq": 2,
+                              "is_leaf": false,
+                              "child_count": 1,
+                              "children": [
+                                {
+                                  "symbol": 62,
+                                  "freq": 1,
+                                  "is_leaf": true,
+                                  "child_count": 0,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 59,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 60,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 57,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 50,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 60,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 52,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 53,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 57,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 60,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 64,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 67,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 72,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 74,
+          "freq": 10,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 79,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 67,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 74,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 77,
+              "freq": 6,
+              "is_leaf": false,
+              "child_count": 3,
+              "children": [
+                {
+                  "symbol": 59,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 62,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 60,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 67,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 74,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 71,
+          "freq": 7,
+          "is_leaf": false,
+          "child_count": 3,
+          "children": [
+            {
+              "symbol": 55,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 58,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 74,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 77,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 74,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 62,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 73,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 55,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 58,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 53,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 43,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 52,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 72,
+      "freq": 24,
+      "is_leaf": false,
+      "child_count": 7,
+      "children": [
+        {
+          "symbol": 76,
+          "freq": 9,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 5,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 62,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 69,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 64,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 67,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 67,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 72,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 76,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 64,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 67,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 72,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 62,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 66,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 72,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 60,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 57,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 64,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 67,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 55,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 59,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 52,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 76,
+      "freq": 14,
+      "is_leaf": false,
+      "child_count": 3,
+      "children": [
+        {
+          "symbol": 60,
+          "freq": 5,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 64,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 69,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 76,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 67,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 67,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 81,
+          "freq": 7,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 62,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 64,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 69,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 76,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 81,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 69,
+      "freq": 27,
+      "is_leaf": false,
+      "child_count": 2,
+      "children": [
+        {
+          "symbol": 74,
+          "freq": 20,
+          "is_leaf": false,
+          "child_count": 6,
+          "children": [
+            {
+              "symbol": 77,
+              "freq": 6,
+              "is_leaf": false,
+              "child_count": 3,
+              "children": [
+                {
+                  "symbol": 59,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 69,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 74,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 77,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 60,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 66,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 69,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 60,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 62,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 59,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 62,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 53,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 56,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 62,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 57,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 62,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 69,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 74,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 76,
+          "freq": 6,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 81,
+              "freq": 5,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 60,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 69,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 76,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 81,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 74,
+      "freq": 33,
+      "is_leaf": false,
+      "child_count": 8,
+      "children": [
+        {
+          "symbol": 77,
+          "freq": 13,
+          "is_leaf": false,
+          "child_count": 4,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 62,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 69,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 64,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 69,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 74,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 77,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 67,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 74,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 59,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 62,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 67,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 66,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 69,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 74,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 79,
+          "freq": 5,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 67,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 59,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 62,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 60,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 62,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 53,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 57,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 62,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 56,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 60,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 62,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 71,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 67,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 74,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 59,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 77,
+      "freq": 9,
+      "is_leaf": false,
+      "child_count": 4,
+      "children": [
+        {
+          "symbol": 60,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 64,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 67,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 59,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 62,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 67,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 67,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 74,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 62,
+      "freq": 53,
+      "is_leaf": false,
+      "child_count": 9,
+      "children": [
+        {
+          "symbol": 67,
+          "freq": 16,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 74,
+              "freq": 9,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 79,
+                  "freq": 6,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 67,
+                      "freq": 5,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 74,
+                          "freq": 4,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 79,
+                              "freq": 3,
+                              "is_leaf": false,
+                              "child_count": 1,
+                              "children": [
+                                {
+                                  "symbol": 59,
+                                  "freq": 2,
+                                  "is_leaf": false,
+                                  "child_count": 1,
+                                  "children": [
+                                    {
+                                      "symbol": 60,
+                                      "freq": 1,
+                                      "is_leaf": true,
+                                      "child_count": 0,
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 77,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 67,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 71,
+              "freq": 6,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 62,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 67,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 71,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 55,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 58,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 66,
+          "freq": 11,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 69,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 74,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 66,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 72,
+              "freq": 7,
+              "is_leaf": false,
+              "child_count": 3,
+              "children": [
+                {
+                  "symbol": 50,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 57,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 62,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 66,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 72,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 55,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 69,
+          "freq": 7,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 74,
+              "freq": 6,
+              "is_leaf": false,
+              "child_count": 3,
+              "children": [
+                {
+                  "symbol": 53,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 62,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 69,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 77,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 69,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 65,
+          "freq": 8,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 71,
+              "freq": 6,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 62,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 65,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 71,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 52,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 52,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 64,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 59,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 55,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": [
+            36,
+            48,
+            64,
+            67,
+            72
+          ],
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 43,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 53,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 55,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 52,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 44,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 81,
+      "freq": 6,
+      "is_leaf": false,
+      "child_count": 2,
+      "children": [
+        {
+          "symbol": 69,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 76,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 60,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 64,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 69,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 59,
+      "freq": 33,
+      "is_leaf": false,
+      "child_count": 3,
+      "children": [
+        {
+          "symbol": 60,
+          "freq": 8,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 64,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 67,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 62,
+              "freq": 5,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 59,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 60,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 62,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 43,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 62,
+          "freq": 14,
+          "is_leaf": false,
+          "child_count": 3,
+          "children": [
+            {
+              "symbol": 55,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 59,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 43,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 52,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 55,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 53,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 67,
+              "freq": 7,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 71,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 62,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 67,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 71,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 74,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 77,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 65,
+          "freq": 10,
+          "is_leaf": false,
+          "child_count": 3,
+          "children": [
+            {
+              "symbol": 43,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 50,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 55,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 51,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 55,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 59,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 65,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 48,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 36,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 57,
+      "freq": 47,
+      "is_leaf": false,
+      "child_count": 3,
+      "children": [
+        {
+          "symbol": 62,
+          "freq": 7,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 69,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 74,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 62,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 69,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 66,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 72,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 60,
+          "freq": 37,
+          "is_leaf": false,
+          "child_count": 5,
+          "children": [
+            {
+              "symbol": 65,
+              "freq": 12,
+              "is_leaf": false,
+              "child_count": 3,
+              "children": [
+                {
+                  "symbol": 50,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 53,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 57,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 60,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 57,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 60,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 57,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 57,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 60,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 65,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 43,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 64,
+              "freq": 5,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 57,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 60,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 64,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 42,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 63,
+              "freq": 7,
+              "is_leaf": false,
+              "child_count": 3,
+              "children": [
+                {
+                  "symbol": 42,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 48,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 57,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 44,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 57,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 60,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 66,
+              "freq": 10,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 43,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 2,
+                  "children": [
+                    {
+                      "symbol": 52,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    },
+                    {
+                      "symbol": 51,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 57,
+                  "freq": 6,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 60,
+                      "freq": 5,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 66,
+                          "freq": 4,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 43,
+                              "freq": 3,
+                              "is_leaf": false,
+                              "child_count": 2,
+                              "children": [
+                                {
+                                  "symbol": 51,
+                                  "freq": 1,
+                                  "is_leaf": true,
+                                  "child_count": 0,
+                                  "children": []
+                                },
+                                {
+                                  "symbol": 52,
+                                  "freq": 1,
+                                  "is_leaf": true,
+                                  "child_count": 0,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 57,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 53,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 53,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 57,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 66,
+      "freq": 12,
+      "is_leaf": false,
+      "child_count": 4,
+      "children": [
+        {
+          "symbol": 72,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 50,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 57,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 62,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 69,
+          "freq": 5,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 74,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 66,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 69,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 59,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 57,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 43,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 55,
+      "freq": 66,
+      "is_leaf": false,
+      "child_count": 3,
+      "children": [
+        {
+          "symbol": 59,
+          "freq": 24,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 65,
+              "freq": 15,
+              "is_leaf": false,
+              "child_count": 3,
+              "children": [
+                {
+                  "symbol": 43,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 2,
+                  "children": [
+                    {
+                      "symbol": 51,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    },
+                    {
+                      "symbol": 50,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 55,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 48,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 52,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 55,
+                  "freq": 8,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 59,
+                      "freq": 7,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 65,
+                          "freq": 6,
+                          "is_leaf": false,
+                          "child_count": 2,
+                          "children": [
+                            {
+                              "symbol": 36,
+                              "freq": 3,
+                              "is_leaf": false,
+                              "child_count": 1,
+                              "children": [
+                                {
+                                  "symbol": 48,
+                                  "freq": 2,
+                                  "is_leaf": false,
+                                  "child_count": 1,
+                                  "children": [
+                                    {
+                                      "symbol": 55,
+                                      "freq": 1,
+                                      "is_leaf": true,
+                                      "child_count": 0,
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "symbol": 43,
+                              "freq": 2,
+                              "is_leaf": false,
+                              "child_count": 1,
+                              "children": [
+                                {
+                                  "symbol": 50,
+                                  "freq": 1,
+                                  "is_leaf": true,
+                                  "child_count": 0,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 62,
+              "freq": 8,
+              "is_leaf": false,
+              "child_count": 3,
+              "children": [
+                {
+                  "symbol": 43,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 52,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 55,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 59,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 62,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 67,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 71,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 60,
+          "freq": 34,
+          "is_leaf": false,
+          "child_count": 3,
+          "children": [
+            {
+              "symbol": 67,
+              "freq": 13,
+              "is_leaf": false,
+              "child_count": 3,
+              "children": [
+                {
+                  "symbol": 55,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 60,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 67,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 43,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 43,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 50,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 72,
+                  "freq": 6,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 60,
+                      "freq": 5,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 67,
+                          "freq": 4,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 72,
+                              "freq": 3,
+                              "is_leaf": false,
+                              "child_count": 1,
+                              "children": [
+                                {
+                                  "symbol": 52,
+                                  "freq": 2,
+                                  "is_leaf": false,
+                                  "child_count": 1,
+                                  "children": [
+                                    {
+                                      "symbol": 53,
+                                      "freq": 1,
+                                      "is_leaf": true,
+                                      "child_count": 0,
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 64,
+              "freq": 12,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 43,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 50,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 55,
+                  "freq": 9,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 60,
+                      "freq": 8,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 64,
+                          "freq": 7,
+                          "is_leaf": false,
+                          "child_count": 2,
+                          "children": [
+                            {
+                              "symbol": 43,
+                              "freq": 3,
+                              "is_leaf": false,
+                              "child_count": 2,
+                              "children": [
+                                {
+                                  "symbol": 52,
+                                  "freq": 1,
+                                  "is_leaf": true,
+                                  "child_count": 0,
+                                  "children": []
+                                },
+                                {
+                                  "symbol": 50,
+                                  "freq": 1,
+                                  "is_leaf": true,
+                                  "child_count": 0,
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "symbol": 48,
+                              "freq": 3,
+                              "is_leaf": false,
+                              "child_count": 2,
+                              "children": [
+                                {
+                                  "symbol": 52,
+                                  "freq": 1,
+                                  "is_leaf": true,
+                                  "child_count": 0,
+                                  "children": []
+                                },
+                                {
+                                  "symbol": 55,
+                                  "freq": 1,
+                                  "is_leaf": true,
+                                  "child_count": 0,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 65,
+              "freq": 8,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 43,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 50,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 55,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 59,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 55,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 60,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 65,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 58,
+          "freq": 7,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 64,
+              "freq": 5,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 55,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 58,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 64,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 67,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 60,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 58,
+      "freq": 16,
+      "is_leaf": false,
+      "child_count": 2,
+      "children": [
+        {
+          "symbol": 64,
+          "freq": 10,
+          "is_leaf": false,
+          "child_count": 3,
+          "children": [
+            {
+              "symbol": 55,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 58,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 64,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 36,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 48,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 53,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 67,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 73,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 64,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 60,
+          "freq": 5,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 64,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 41,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 53,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": 58,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 56,
+      "freq": 4,
+      "is_leaf": false,
+      "child_count": 1,
+      "children": [
+        {
+          "symbol": 62,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 65,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 71,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 71,
+      "freq": 19,
+      "is_leaf": false,
+      "child_count": 6,
+      "children": [
+        {
+          "symbol": 62,
+          "freq": 6,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 65,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 71,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                },
+                {
+                  "symbol": 64,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 62,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 67,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 74,
+          "freq": 5,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 77,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 74,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 71,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 67,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 67,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 71,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 55,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 58,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 59,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 52,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 53,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 53,
+      "freq": 33,
+      "is_leaf": false,
+      "child_count": 5,
+      "children": [
+        {
+          "symbol": 57,
+          "freq": 17,
+          "is_leaf": false,
+          "child_count": 3,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 12,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 64,
+                  "freq": 6,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 57,
+                      "freq": 5,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 60,
+                          "freq": 4,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 64,
+                              "freq": 3,
+                              "is_leaf": false,
+                              "child_count": 2,
+                              "children": [
+                                {
+                                  "symbol": 41,
+                                  "freq": 1,
+                                  "is_leaf": true,
+                                  "child_count": 0,
+                                  "children": []
+                                },
+                                {
+                                  "symbol": 42,
+                                  "freq": 1,
+                                  "is_leaf": true,
+                                  "child_count": 0,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 65,
+                  "freq": 5,
+                  "is_leaf": false,
+                  "child_count": 2,
+                  "children": [
+                    {
+                      "symbol": 60,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    },
+                    {
+                      "symbol": 57,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 60,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 65,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 53,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 50,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 53,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 62,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 59,
+          "freq": 6,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 5,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 62,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 59,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 60,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 62,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 55,
+          "freq": 5,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 59,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 62,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 55,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 59,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 50,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 53,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 56,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 62,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 65,
+      "freq": 35,
+      "is_leaf": false,
+      "child_count": 8,
+      "children": [
+        {
+          "symbol": 71,
+          "freq": 5,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 53,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 56,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": 62,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 65,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 57,
+          "freq": 5,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 4,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 65,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 2,
+                  "children": [
+                    {
+                      "symbol": 52,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    },
+                    {
+                      "symbol": 43,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 43,
+          "freq": 11,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 50,
+              "freq": 9,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 55,
+                  "freq": 8,
+                  "is_leaf": false,
+                  "child_count": 2,
+                  "children": [
+                    {
+                      "symbol": 59,
+                      "freq": 5,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 65,
+                          "freq": 4,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 55,
+                              "freq": 3,
+                              "is_leaf": false,
+                              "child_count": 1,
+                              "children": [
+                                {
+                                  "symbol": 59,
+                                  "freq": 2,
+                                  "is_leaf": false,
+                                  "child_count": 1,
+                                  "children": [
+                                    {
+                                      "symbol": 65,
+                                      "freq": 1,
+                                      "is_leaf": true,
+                                      "child_count": 0,
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "symbol": 60,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 65,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 51,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 55,
+          "freq": 9,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 59,
+              "freq": 5,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 65,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 2,
+                  "children": [
+                    {
+                      "symbol": 43,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 50,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "symbol": 36,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 60,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 65,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 43,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 52,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 48,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 50,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 64,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 52,
+      "freq": 18,
+      "is_leaf": false,
+      "child_count": 2,
+      "children": [
+        {
+          "symbol": 53,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 57,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 60,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 65,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 55,
+          "freq": 13,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 12,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 64,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 55,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 60,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 64,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 67,
+                  "freq": 7,
+                  "is_leaf": false,
+                  "child_count": 2,
+                  "children": [
+                    {
+                      "symbol": 72,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 60,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "symbol": 55,
+                      "freq": 4,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 60,
+                          "freq": 3,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 67,
+                              "freq": 2,
+                              "is_leaf": false,
+                              "child_count": 1,
+                              "children": [
+                                {
+                                  "symbol": 43,
+                                  "freq": 1,
+                                  "is_leaf": true,
+                                  "child_count": 0,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 50,
+      "freq": 25,
+      "is_leaf": false,
+      "child_count": 4,
+      "children": [
+        {
+          "symbol": 55,
+          "freq": 13,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 7,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 65,
+                  "freq": 6,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 55,
+                      "freq": 5,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 60,
+                          "freq": 4,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 65,
+                              "freq": 3,
+                              "is_leaf": false,
+                              "child_count": 1,
+                              "children": [
+                                {
+                                  "symbol": 43,
+                                  "freq": 2,
+                                  "is_leaf": false,
+                                  "child_count": 1,
+                                  "children": [
+                                    {
+                                      "symbol": 50,
+                                      "freq": 1,
+                                      "is_leaf": true,
+                                      "child_count": 0,
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": 59,
+              "freq": 5,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 65,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 55,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 59,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 65,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 53,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 2,
+          "children": [
+            {
+              "symbol": 50,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            },
+            {
+              "symbol": 57,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 60,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 36,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 47,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 67,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 57,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 62,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 66,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 72,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 41,
+      "freq": 2,
+      "is_leaf": false,
+      "child_count": 1,
+      "children": [
+        {
+          "symbol": 53,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 48,
+      "freq": 16,
+      "is_leaf": false,
+      "child_count": 4,
+      "children": [
+        {
+          "symbol": 57,
+          "freq": 6,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 5,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 63,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 57,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 60,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 63,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 55,
+          "freq": 7,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 58,
+              "freq": 6,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 64,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 55,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 58,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 60,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 64,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 53,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 52,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 51,
+      "freq": 4,
+      "is_leaf": false,
+      "child_count": 1,
+      "children": [
+        {
+          "symbol": 57,
+          "freq": 3,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 60,
+              "freq": 2,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 66,
+                  "freq": 1,
+                  "is_leaf": true,
+                  "child_count": 0,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 43,
+      "freq": 16,
+      "is_leaf": false,
+      "child_count": 4,
+      "children": [
+        {
+          "symbol": 50,
+          "freq": 9,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 55,
+              "freq": 8,
+              "is_leaf": false,
+              "child_count": 2,
+              "children": [
+                {
+                  "symbol": 60,
+                  "freq": 4,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 65,
+                      "freq": 3,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 55,
+                          "freq": 2,
+                          "is_leaf": false,
+                          "child_count": 1,
+                          "children": [
+                            {
+                              "symbol": 60,
+                              "freq": 1,
+                              "is_leaf": true,
+                              "child_count": 0,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": 59,
+                  "freq": 3,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 65,
+                      "freq": 2,
+                      "is_leaf": false,
+                      "child_count": 1,
+                      "children": [
+                        {
+                          "symbol": 55,
+                          "freq": 1,
+                          "is_leaf": true,
+                          "child_count": 0,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 52,
+          "freq": 4,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 55,
+              "freq": 3,
+              "is_leaf": false,
+              "child_count": 1,
+              "children": [
+                {
+                  "symbol": 60,
+                  "freq": 2,
+                  "is_leaf": false,
+                  "child_count": 1,
+                  "children": [
+                    {
+                      "symbol": 67,
+                      "freq": 1,
+                      "is_leaf": true,
+                      "child_count": 0,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": 53,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 51,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 47,
+      "freq": 1,
+      "is_leaf": true,
+      "child_count": 0,
+      "children": []
+    },
+    {
+      "symbol": [
+        36,
+        48,
+        64,
+        67,
+        72
+      ],
+      "freq": 1,
+      "is_leaf": true,
+      "child_count": 0,
+      "children": []
+    },
+    {
+      "symbol": 79,
+      "freq": 3,
+      "is_leaf": false,
+      "child_count": 2,
+      "children": [
+        {
+          "symbol": 59,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 67,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 73,
+      "freq": 3,
+      "is_leaf": false,
+      "child_count": 2,
+      "children": [
+        {
+          "symbol": 55,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        },
+        {
+          "symbol": 64,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 42,
+      "freq": 2,
+      "is_leaf": false,
+      "child_count": 1,
+      "children": [
+        {
+          "symbol": 48,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 63,
+      "freq": 3,
+      "is_leaf": false,
+      "child_count": 1,
+      "children": [
+        {
+          "symbol": 44,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 53,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "symbol": 44,
+      "freq": 2,
+      "is_leaf": false,
+      "child_count": 1,
+      "children": [
+        {
+          "symbol": 53,
+          "freq": 1,
+          "is_leaf": true,
+          "child_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "symbol": 36,
+      "freq": 5,
+      "is_leaf": false,
+      "child_count": 2,
+      "children": [
+        {
+          "symbol": 47,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 67,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": 48,
+          "freq": 2,
+          "is_leaf": false,
+          "child_count": 1,
+          "children": [
+            {
+              "symbol": 53,
+              "freq": 1,
+              "is_leaf": true,
+              "child_count": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
